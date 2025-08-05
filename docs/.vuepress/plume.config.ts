@@ -1,19 +1,17 @@
-import { defineThemeConfig } from 'vuepress-theme-plume'
-import { navbar } from './navbar'
-import { notes } from './notes'
+import { defineThemeConfig } from "vuepress-theme-plume";
+import { navbar } from "./navbar";
+import { notes } from "./notes";
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: '/header.jpg',
+  logo: "/header.jpg",
 
-  appearance: true,  // 配置 深色模式
+  appearance: true, // 配置 深色模式
 
-  social: [
-    { icon: 'github', link: 'https://github.com/xaunsu' },
-  ],
-  navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
+  social: [{ icon: "github", link: "https://github.com/xaunsu" }],
+  navbarSocialInclude: ["github"], // 允许显示在导航栏的 social 社交链接
   aside: true, // 页内侧边栏， 默认显示在右侧
   outline: [1, 3], // 页内大纲， 默认显示 h2, h3
 
@@ -23,8 +21,8 @@ export default defineThemeConfig({
    */
   // copyright: true,
 
-  prevPage: true,   // 是否启用上一页链接
-  nextPage: true,   // 是否启用下一页链接
+  prevPage: true, // 是否启用上一页链接
+  nextPage: true, // 是否启用下一页链接
   createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
@@ -37,13 +35,13 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: '/header.jpg',
-    name: '萱苏',
-    description: '一个前端开发的小青年',
+    avatar: "/header.jpg",
+    name: "毛阳",
+    description: "一个前端开发的小青年",
     circle: true,
-    location: '重庆',
-    organization: '',
-    layout: 'right', // 个人信息在左侧还是右侧，'left' | 'right'
+    location: "重庆",
+    organization: "",
+    layout: "right", // 个人信息在左侧还是右侧，'left' | 'right'
   },
 
   navbar,
@@ -62,9 +60,8 @@ export default defineThemeConfig({
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
   transition: {
-    page: true,        // 启用 页面间跳转过渡动画
-    postList: true,    // 启用 博客文章列表过渡动画
-    appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
+    page: true, // 启用 页面间跳转过渡动画
+    postList: true, // 启用 博客文章列表过渡动画
+    appearance: "fade", // 启用 深色模式切换过渡动画, 或配置过渡动画类型
   },
-
-})
+});

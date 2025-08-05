@@ -2,26 +2,23 @@
 pageLayout: home
 externalLinkIcon: false
 config:
-  -
-    type: hero
+  - type: hero
     full: true
     background: tint-plate
     hero:
-      name: 萱苏
+      name: 毛阳
       # tagline: 个人前端学习笔记
       text: 热爱换取成就,自我实现价值
       actions:
-        -
-          theme: brand
+        - theme: brand
           text: 博客
           link: /blog/
-        -
-          theme: alt
+        - theme: alt
           text: Github →
-          link: https://github.com/xaun-su
+          link: https://github.com/commy1001/
 
         # -
         #   theme: brand
         #   text: 稀土掘金
-        #   link: https://juejin.cn/user/508454914254364
+        #   link:
 ---

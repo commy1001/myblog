@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "description": "前端个人学习笔记",
-  "author": "萱苏",
+  "author": "毛阳",
   "license": "MIT",
   "engines": {
     "node": "^20.6.0 || >=22.0.0"
@@ -13,7 +13,7 @@
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "docs:preview": "http-server docs/.vuepress/dist",
-    "vp-update": "npm dlx vp-update" 
+    "vp-update": "npm dlx vp-update"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.22",
